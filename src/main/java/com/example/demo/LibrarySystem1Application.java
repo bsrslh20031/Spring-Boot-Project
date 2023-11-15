@@ -1,0 +1,14 @@
+package com.example.demo;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+//ComponentScan(basePackages="com.example.demo.services")
+public class LibrarySystem1Application {
+
+	public static void main(String[] args) {
+		SpringApplication.run(LibrarySystem1Application.class, args);
+	}
+
+}
